@@ -1,0 +1,56 @@
+html {
+	position: relative;
+}
+
+body{
+	margin-bottom: 120px;
+	margin-top: 30px;
+}
+
+.jumbotron {
+	height: 400px;
+	background-image: url('../img/moonland.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -400px; 
+	color: #eaeaea;
+}
+
+.jumbotron img {
+	width: 200px;
+	border: 5px solid #eaeaea;
+}
+
+.about hr {
+	width: 200px;
+	border-top:  3px solid #000000;
+}
+
+.portfolio hr {
+	width: 200px;
+	border-top:  3px solid #FFFFFF;
+}
+
+section {
+	min-height: 600px;
+}
+
+.portfolio {
+	background-image: url('../img/moonland.png');
+	background-position: 0 -200px; 
+	background-size: cover;
+	color: #eaeaea;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+	padding: 30px;
+}
+
+footer p {
+	color: #aaa;
+}
